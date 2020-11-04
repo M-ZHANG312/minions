@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>cast</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="cast">
+    <div class="upper_header" id="upper_header">
+      <div class="logo"><span id="homepage_logo"><img src="documents/homepage_logo.png" alt="homepage_logo" style="width:360px;height:180px;"></span></div>
+        <div class="top-nav">
+          <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li class="active"><a href="cast.html">Cast</a></li>
+            <li><a href="storyline.html">Storyline</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+          </ul>
+        </div>
+      </div>
+
+    <div class="cast_page">
+      <div id="cast_finder">Click to find our Super Cast!</div>
+      <div id="cast_mapper">
+        <img src="documents/cast_characters_nobackground.jpg" style="width:720px;height:600px;" alt="despicableme_cast" usemap="#cast_mapper"></img>
+        <map name="cast_mapper">
+          <area shape="rect" coords="300,80,400,400" alt="Felonious" href="#" onclick="showCast(this)">
+          <area shape="rect" coords="410,30,480,400" alt="Lucy" href="#" onclick="showCast(this)">
+          <area shape="rect" coords="50,350,160,500" alt="Agnes" href="#" onclick="showCast(this)">
+          <area shape="rect" coords="200,220,300,520" alt="Margo" href="#" onclick="showCast(this)">
+          <area shape="rect" coords="500,300,660,500" alt="Edith" href="#" onclick="showCast(this)">
+          <area shape="rect" coords="350,400,470,580" alt="Minion" href="#" onclick="showCast(this)">
+        </map>
+      </div>
+
+      <div id="cast_characters" class="hidden">
+        <div class="close">
+          <a href="#" onclick="hideCast()"><b><i class="cast_voice"></i></b></a>
+        </div>
+          <img id="cast_picture">
+          <div id="cast_intro">
+          </div>
+        </div>
+
+        <div id="Felonious" class="hidden">
+          <h4>Felonius Gru---Steve Carell(voice)</h4>
+          <p>Felonious: A mean supervillain-turned-good-natured father, the former villain turned Anti-Villain League agent, Margo, Edith, and Agnes' adoptive father, and Lucy's husband<br><br>
+             Steve Carell: An American actor, comedian, writer, and director. He is well known for his portrayal of gaffe-prone boss Michael Scott on the American version of The Office (2005–2013).
+          </p>
+        </div>
+        <div id="Lucy" class="hidden">
+          <h4>Lucy Wilde---Kristen Wiig(voice)</h4>
+          <p>Lucy: An Anti-Villain League agent, Gru's wife and the girls' adoptive mother<br><br>
+             Kristen Wiig: An American actress, comedian, writer, and producer who broke into comedy as a member of the improvisational comedy troupe The Groundlings, and made her television debut in 2003.
+          </p>
+        </div>
+        <div id="Agnes" class="hidden">
+          <h4>Agnes Gru---Elsie Fisher(voice)</h4>
+          <p>Agnes: Gru and Lucy's youngest innocent and immature adopted daughter<br><br>
+             Elsie Fisher: An American actress. She began her career in 2009 with a role in the television series Medium at age 6, before voicing Agnes in the first two Despicable Me films.
+          </p>
+        </div>
+        <div id="Margo" class="hidden">
+          <h4>Margo Gru---Miranda Cosgrove(voice)</h4>
+          <p>Margo: Gru and Lucy's oldest and clever adopted daughter<br><br>
+             Miranda Cosgrove: An American actress and singer. Her career began at the age of seven with several television commercial appearances.
+          </p>
+        </div>
+        <div id="Edith" class="hidden">
+          <h4>Edith Gru---Dana Gaier(voice)</h4>
+          <p>Edith: Gru and Lucy's middle tomboyish adopted daughter<br><br>
+             Dana Gaier: An American actress who played Edith in the Despicable Me franchise.
+          </p>
+        </div>
+        <div id="Minion" class="hidden">
+          <h4>Minion---Pierre Coffin(voice)</h4>
+          <p>Minion: Small, yellow, cute,tricky henchmen<br><br>
+             Pierre Coffin:a French voice actor, animator and film director best known for co-directing all four films in the Despicable Me franchise and as the voice of the Minions, which won him the Kids Family Award at the 10th Seiyu Awards.
+          </p>
+        </div>
+    </div>
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="script.js"></script>
+  </body>
+</html>

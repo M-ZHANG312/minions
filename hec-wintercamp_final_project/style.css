@@ -1,0 +1,250 @@
+@font-face {
+  font-family: subscribe;
+  src: url("documents/Subscribe.ttf");
+}
+@font-face {
+  font-family: subscribeshadow;
+  src: url("documents/SubscribeShadow.ttf");
+}
+@font-face {
+  font-family: snubnose;
+  src: url("documents/snubnose.otf");
+}
+#homepage{
+  background-image: url("documents/homepage_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  width:300px;
+  height:150px;
+  margin-left: 2em;
+  margin-top: 2.5em;
+}
+.top-nav{
+  float:right;
+  margin-right: 32em;
+  margin-top: -5.8em;
+}
+.top-nav ul li{
+	display: inline-block;
+	margin-left: 0.5em;
+}
+.top-nav ul li a{
+  font-family: subscribe;
+	font-size: 2.5em;
+	color: #E67E22;
+	padding: 0.2em 0.2em;
+	display: block;
+	border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-o-border-radius: 0.5em;
+  text-decoration: none;
+}
+.top-nav li.active> a, .top-nav li> a:hover {
+	color: white;
+	background:#E67E22;
+}
+#carouselExampleIndicators{
+  width: 600px;
+  height: 400px;
+  margin-left: 8em;
+  margin-top: 3em;
+  border: solid #E67E22 1em;
+  border-style: outset;
+  border-radius: 1em;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	-o-border-radius: 1em;
+}
+.footer_home{
+  position:absolute;
+  left:6em;
+  bottom:3em;
+}
+.footer_home ul li{
+  display: inline-block;
+}
+.footer_home ul li a{
+  padding: 1em 1em;
+}
+#cast{
+  background-color:#FFFACD;
+}
+#cast_mapper {
+  margin-left: 3em;
+}
+#cast_finder{
+  margin-left: 16em;
+  display:block;
+  font-family: subscribeshadow;
+  color: #E67E22;
+  font-size: 3em;
+  font-weight: bold;
+}
+#cast_characters{
+  margin-left: 50em;
+  margin-right: 6em;
+  margin-top: -35em;
+  border: solid #E67E22 1em;
+  border-style: dashed;
+  border-radius: 1em;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	-o-border-radius: 1em;
+}
+#cast_characters h4 {
+  text-align: center;
+  font-family: snubnose;
+  color: #E67E22;
+  font-size: 2.2em;
+  font-weight: bold;
+}
+#cast_characters p {
+  text-align: center;
+  font-family: subscribe;
+  color: #E67E22;
+  font-size: 1.8em;
+  padding: 0.5em 1em 1em 1em;
+}
+.hidden{
+  display: none;
+}
+#storyline{
+  background-image: url("documents/storyline_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.storyline_grid{
+  display: block;
+  margin-left: 2em;
+  width:60%;
+  margin-top: 3em;
+  text-align:center;
+  background: #E67E22;
+  color:white;
+  padding-bottom: 2em;
+  border: solid white 1.5em;
+  border-style:dotted solid;
+  border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-o-border-radius: 0.5em;
+}
+.storyline_grid h4 {
+    color: white;
+    font-family: subscribeshadow;
+    font-size: 3em;
+    margin: 1em 0 0 0;
+    display: block;
+    font-weight: 900;
+}
+.storyline_grid date{
+    font-family: subscribeshadow;
+    font-size: 2em;
+    font-style: italic;
+    display:block;
+}
+.storyline_grid p{
+   font-family: subscribe;
+   font-size: 1.5em;
+   display:block;
+   padding-left: 1em;
+   padding-right: 1em;
+}
+#carouselExampleIndicators_storyline{
+  width: 720px;
+  height: 400px;
+  margin-left: 3em;
+  margin-top: 1.5em;
+}
+#upper_header_storyline{
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 60%;
+}
+#reviews{
+  background-image: url("documents/reviews_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.reviews_head h1{
+  text-align: center;
+  font-family: subscribeshadow;
+  color: #E67E22;
+  font-size: 5em;
+  padding: 0.5em 0.5em;
+}
+.reviews_head p{
+  text-align:center;
+  font-family: subscribe;
+  color: #E67E22;
+  font-size: 2em;
+  padding: 1em 1em 1em 1em;
+  margin-top: -2em;
+}
+#reviews_text{
+  background-color: #E67E22;
+  display: block;
+  margin: 0 auto;
+  font-family: subscribe;
+  font-size: 1.5em;
+  padding: 0.8em 1em;
+  border-radius: 0.5em;
+  border: #E67E22;
+  width: 45%;
+  color: white;
+}
+#reviews_text input:focus{
+  background-color: white;
+  color: #E67E22;
+}
+#rewiews_button{
+  background:white;
+  color: #E67E22;
+  width: 10%;
+  display:block;
+  border: 0.2em solid #E67E22;
+  border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-o-border-radius: 0.5em;
+  margin: 0 auto;
+  font-family: subscribe;
+  font-size:2.5em;
+}
+.merci{
+  background-image: url("documents/merci_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.merci h1{
+  text-align: center;
+  margin-top: 1.5em;
+  margin-left: -6em;
+  font-family: subscribeshadow;
+  font-weight: bold;
+  color: #E67E22;
+  font-size: 5em;
+}
+#merci_minions{
+   animation-name: move;
+   animation-duration: 6s;
+   animation-iteration-count: infinite;
+   position: absolute;
+   bottom: 5%;
+   left: 27%;
+}
+@keyframes move{
+  0%{bottom: 5%;left: 27%;}
+  100%{bottom: 5%;left: 0;}
+}
